@@ -1,0 +1,61 @@
+body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+  background: url('signup-main-background2.png');
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.before{
+  text-align: center;
+  margin: 20px 50px;
+  padding: 10px;
+  background-color: #e0ece4;
+  display: inline-block;
+  width: 75%;
+  color: black;
+  text-decoration: none;
+}
+.before:hover{
+  box-shadow: 5px 5px 5px 10px #888888;
+}
+.after{
+  margin:  20px 150px;
+  padding: 20px;
+  box-shadow: 5px 5px 5px 10px #888888;
+}
+label{
+  text-align: left;
+  float: left;
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+}
+input, textarea, select{
+  width: 100%;
+  display: block;
+  padding: 12px;
+  margin:  0;
+  background-color: white;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #ec0101;
+  outline: none;
+}
+input:focus{
+  background-color: #f4f6ff;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #ec0101;
+}
+.red{
+  color: red;
+}
+.green{
+  color: green;
+}
