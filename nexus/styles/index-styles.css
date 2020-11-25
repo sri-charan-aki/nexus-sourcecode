@@ -1,0 +1,68 @@
+body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+/* main */
+.main{
+  text-align: center;
+}
+body{
+  width: 100%;
+
+  display: block;
+  position: relative;
+}
+
+body::after {
+  content: "";
+  background: url(bg-img2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  z-index: -1;
+}
+.one-third{
+  text-align: center;
+  display: inline-block;
+  width: 25%;
+  height: 300px;
+  border: 3px solid black;
+  opacity: 100%;
+  margin: 50px 20px;
+  padding: 10px 0;
+}
+.one-third:hover{
+  box-shadow: 5px 5px 5px 10px #767c77;
+}
+
+input[type=text], input[type=password], input[type=submit] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 6px 0;
+  background-color: #f4f6ff;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+}
+input[type=submit]:hover{
+  color: #ec0101;
+}
+
+@media only screen and (max-width:800px){
+.one-third{width:75%;}
+}
+@media only screen and (max-width:1200px){
+  #small{font-size:28px;}
+}
